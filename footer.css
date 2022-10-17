@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+footer{
+    background-color: #003049;
+    color: aliceblue;
+}
+
+.social{
+    font-size: 200%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-decoration: none;
+    color: blue;
+}
+
+.social a{
+    padding-right: 10px;
+    justify-content: space-between;
+}
+
+.fcard{
+    padding: 10px;
+    text-align: center;
+}
+
+.fcard button, input{
+    border: none;
+    background-color: #FCBF49;
+    color: #003049;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+.fcard input{
+    background-color: white;
+}
+
+.fcard .cont{
+    display: grid;
+}
+
+.fcard .cont i{
+    margin: 10px 0px;
+}
+
+.frow{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 20px;
+}
+
+.sdec{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sdec .flogo{
+    align-items: center;
+    text-align: center;
+}
+
+/* .sdec .details{
+    margin-top: 4px;
+    margin-left: 16px;
+} */
+
+.name{
+    font-size: larger;
+    font-weight: bolder;
+    font-family: 'Dancing Script', cursive;
+    color: #FCBF49;
+}
+
+.fdec{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

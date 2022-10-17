@@ -1,0 +1,45 @@
+header{
+    position: sticky;
+    top: 0;
+    background-color: #cbdff3;
+    height: 10vh;
+    z-index: 1;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu ul li{
+    padding: 5px 20px;
+    color: white;
+    border-radius: 10px;
+    background-color: #495057;
+}
+
+.menu ul a{
+    text-decoration: none;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.logo img{
+    width: 40%;
+}
+
+.menu{
+    margin-top: 20px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.menu ul{
+    gap: 20px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

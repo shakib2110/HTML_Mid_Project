@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navigation.css">
+    <link rel="stylesheet" href="carosol.css">
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="review.css">
+    <link rel="stylesheet" href="extra.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <img src="logo.jpg" alt="">
+                </div>
+    
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#Product">PRODUCT</a></li>
+                        <li><a href="#review">REVIEW</a></li>
+                        <li><a href="#foot">About Us</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id = "carosol">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="c1">
+                  <div class="dec">
+                    <h1>Get the Latest Updates</h1>
+  
+                      <button>Get Updates</button>
+                  </div>
+                  <div class="image">
+                    <img src="updates01.png" alt="">
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="c1">
+                  <div class="dec">
+                    <h1>Brand New Phones</h1>
+  
+                      <button>Explore</button>
+                  </div>
+                  <div class="image">
+                    <img src="bnp.png" alt="">
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="c1">
+                  <div class="dec">
+                    <h1>One Stop Online Service</h1>
+  
+                      <button>Go</button>
+                  </div>
+                  <div class="image">
+                    <img src="undraw_server_down_s4lk.png" alt="">
+                  </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+
+    <section id = "Product">
+        <div class="container-fluid">
+          <h1 class= "title">New Product</h1>
+
+            <div class="row">
+                <div id="display-card" class="col-9">
+                  <div class="row">
+                    <div class="pcard col">
+                      <!-- <div class="card"> -->
+                          <img src="iphone13-removebg-preview.png" class="card-img-top" alt="Iphone-13">
+                          <div class="card-body">
+                            <h5 class="card-title">Iphone-13 Pro</h5>
+                            <p class="card-text">Price : 200 Tk</p>
+                            <button onclick="addtocart(200)">Add to Cart</button>
+                          </div>
+                        <!-- </div> -->
+                  </div>
+
+                  <div class="pcard col">
+                      <!-- <div class="card" > -->
+                          <img src="samsung-galaxy-s22-ultra-5g-2-removebg-preview.png" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Samsung Galaxy S22 Ultra 5G</h5>
+                            <p class="card-text">Price : 300 Tk</p>
+                            <button onclick="addtocart(300)">Add to Cart</button>
+                          </div>
+                        <!-- </div> -->
+                  </div>
+
+                  <div class="pcard col">
+                      <!-- <div class="card" > -->
+                          <img src="oneplus_10_pro.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Oneplus 10 Pro</h5>
+                            <p class="card-text">Price : 400 Tk</p>
+                            <button onclick="addtocart(400)">Add to Cart</button>
+                          </div>
+                        <!-- </div> -->
+                  </div>
+                  </div>
+                  <div class="row">
+                    <div class="pcard col">
+                      <!-- <div class="card" > -->
+                          <img src="Google-Pixel-7-Pro-removebg-preview.png" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Google Pixel 7 Pro</h5>
+                            <p class="card-text">Price : 500 Tk</p>
+                            <button onclick="addtocart(500)">Add to Cart</button>
+                          </div>
+                        <!-- </div> -->
+                  </div>
+
+                  <div class="pcard col">
+                      <!-- <div class="card" > -->
+                          <img src="huawei-p40-pro-01-removebg-preview.png" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Huawei P40 Pro</h5>
+                            <p class="card-text">Price : 600 Tk</p>
+                            <button onclick="addtocart(600)">Add to Cart</button>
+                          </div>
+                        <!-- </div> -->
+                  </div>
+
+                  <div class="pcard col">
+                      <!-- <div class="card" > -->
+                          <img src="Asus-ROG-Phone-3-removebg-preview-removebg-preview.png" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Asus ROG Phone 3</h5>
+                            <p class="card-text">Price : 700 Tk</p>
+                            <button onclick="addtocart(700)">Add to Cart</button>
+                          </div>
+                        <!-- </div> -->
+                  </div>
+                  </div>
+                    
+
+                    
+                </div>
+              
+                <div class="cart-card col-3">
+                  <h2 class="text-center">Product & Payment</h2>
+                  <hr>
+    
+                  <h3>Total Products <span id="total-products" class="shift">0</span></h3>
+                  <h3>Price <span id="price" class="shift">0</span></h3>
+                  <h3>Delivery Charge <span id="delivery-charge" class="shift">0</span></h3>
+                  <hr>
+    
+                  <h3>Shipping Charge <span id="shipping-charge" class="shift">0</span></h3>
+                  <h3>Tax(15%) <span id="tax" class="shift">0</span></h3>
+                  <hr>
+    
+                  <h2>Total Price <span id="total" class="shift">0</span></h2>
+                  <button onclick="orderProducts()" class="btn btn-warning">Order Now  <i class="fa-sharp fa-solid fa-bag-shopping"></i></button>
+                  <div id="details">
+    
+                  </div>
+                </div>
+              </div>
+
+        </div>
+    </section>
+
+    <section id ="Upcoming">
+        <div class="container">
+            <div class="title">
+                <h1>Upcoming Product</h1>
+            </div>
+
+            <div class="row up_card">
+                    <div class="pcard col">
+                        <!-- <div class="card" style="width: 20rem;"> -->
+                            <img src="iphone-14-pro-model-unselect-gallery-2-202209_GEO_EMEA-removebg-preview.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Iphone 14 Pro</h5>
+                              <p class="card-text">Coming Soon</p>
+                              <p class="card-text">Price yet to be declared</p>
+                            </div>
+                          <!-- </div> -->
+                    </div>
+
+                    <div class="pcard col">
+                        <!-- <div class="card" style="width: 20rem;"> -->
+                            <img src="OnePlus-Ace-Pro-Official-image-520x520-removebg-preview.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">OnePlus Ace Pro</h5>
+                              <p class="card-text">Coming Soon</p>
+                              <p class="card-text">Price yet to be declared</p>
+                            </div>
+                          <!-- </div> -->
+                    </div>
+
+                    <div class="pcard col">
+                        <!-- <div class="card" style="width: 20rem;"> -->
+                            <img src="samsung_z_fold_4-removebg-preview.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Samsung Galaxy Z Fold 4</h5>
+                              <p class="card-text">Coming Soon</p>
+                              <p class="card-text">Price yet to be declared</p>
+                            </div>
+                          <!-- </div> -->
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <section id ="review">
+      <div class="title">
+        <h1>Reviews</h1>
+    </div>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <div class="part">
+            <div class="rev">
+              <img src="arnab.jpg" alt="">
+              <h1>Arnab Barua</h1>
+              <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <i class="fa-solid fa-quote-left cshift1"></i>
+              <p>Just got my iPhone pro max ultra 20 from MobileDokan. Although this is my first buy, sure to say they didn’t disappoint me. Original iPhone, packeted nicely & got in time. Gonna order again for sure VV.</p>
+              <i class="fa-solid fa-quote-right cshift2"></i>
+            </div>
+
+            <div class="rev">
+              <img src="durjoy.jpg" alt="">
+              <h1>Durjoy</h1>
+              <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <i class="fa-solid fa-quote-left cshift1"></i>
+              <p>গুগল পিক্সেল নিয়েছি ছবি তোলার জন্য কিন্তু ছবি তুলতে যেয়ে Nokia 7650 এর ফিল পেয়েছি</p>
+              <i class="fa-solid fa-quote-right cshift2"></i>
+            </div>
+
+            <div class="rev">
+              <img src="mahbub.jpg" alt="">
+              <h1>Sorowar Mahbub</h1>
+              <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <i class="fa-solid fa-quote-left cshift1"></i>
+              <p>Very Good Service</p>
+              <i class="fa-solid fa-quote-right cshift2"></i>
+            </div>
+            
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="part">
+            <div class="rev">
+              <img src="pic.jpeg" alt="">
+              <h1>Shams Farabi</h1>
+              <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <i class="fa-solid fa-quote-left cshift1"></i>
+              <p>"Redmi Phone কিনেছিলাম। একদমই অরিজিনাল প্রোডাক্ট। প্রোডাক্ট ভেরিফিকেশন করে দেখেছি। ডেলিভারিও খুব তাড়াতাড়ি পেয়েছি"</p>
+              <i class="fa-solid fa-quote-right cshift2"></i>
+            </div>
+
+            <div class="rev">
+              <img src="emdadul.png" alt="">
+              <h1>Emdadul Islam</h1>
+              <div class="star">
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <i class="fa-solid fa-quote-left cshift1"></i>
+              <p>আইফোন নিয়েছি কিন্তু মোবাইল অন করার সময় লোগো দেখালো স্যামসাং.</p>
+              <i class="fa-solid fa-quote-right cshift2"></i>
+            </div>
+
+            <div class="rev">
+              <img src="shishin.jpg" alt="">
+              <h1>Shahin Shah</h1>
+              <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <i class="fa-solid fa-quote-left cshift1"></i>
+              <p>Dear seller, I'm completely satisfied with your response. Product describing was very good. Services you have provided can make people feel at ease. Moreover everything you have described about the product was genuine. Hope you gys will keep up your services. Best Wishes.</p>
+              <i class="fa-solid fa-quote-right cshift2"></i>
+            </div>
+            
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="part">
+            <div class="rev">
+              <img src="jamil.jpg" alt="">
+              <h1>Jamil Ahmed</h1>
+              <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <i class="fa-solid fa-quote-left cshift1"></i>
+              <p>Reliable and trustworthy flagship mobile shob. Anyone can buy any flagship mobile phone with official warranty and affordable prices. Their life time service warranty is really good and world class. I bought my S22 ultra 1 week ago from their shop. It was a great deal.</p>
+              <i class="fa-solid fa-quote-right cshift2"></i>
+            </div>
+
+            <div class="rev">
+              <img src="kader.jpg" alt="">
+              <h1>Abdul Kader</h1>
+              <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <i class="fa-solid fa-quote-left cshift1"></i>
+              <p>লো বাজেটে  একটা ভালো ফোনের জন্যে "মোবাইল দোকান" গেলাম। তারা আমাকে ২০ হাজার বাজেটের মধ্যে Redmi 10 pro নেওয়ার পরামর্শ দেয়৷ 
+                ক্যামেরাও লো বাজেটের মধ্যে যথেষ্ট ভালো। ফোনের RAM ৬ জিবি যা আমার বেশি দরকার ছিল। 
+                কম বাজেটে ভালো ফোন পেয়ে আমি খুঁশি।</p>
+              <i class="fa-solid fa-quote-right cshift2"></i>
+            </div>
+
+            <div class="rev">
+              <img src="sazzad.jpg" alt="">
+              <h1>Sazzad Hossain</h1>
+              <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <i class="fa-solid fa-quote-left cshift1"></i>
+              <p>পুরাতন মোবাইলকে রিপেয়ার করে চড়া দামে বিক্রয় করা কোনোভাবেই গ্রহণযোগ্য না। পরবর্তীতে এহেন কার্যক্রম দৃষ্টিগোচর হলে আইনানুগ ব্যবস্থা নিতে বাধ্য হবো। আশা করি কর্তৃপক্ষের সুমতি উদিত হবে।</p>
+              <i class="fa-solid fa-quote-right cshift2"></i>
+            </div>
+            
+          </div>
+        </div>
+
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    </section>
+
+    <section id ="extra">
+      <div class="container">
+        <div class="extra_main">
+          <div class="epart img_width">
+            <img src="Capture-removebg-preview.png" alt="" >
+            <h4>24/7 Service</h4>
+          </div>
+
+          <div class="epart">
+            <div class="logo">
+              <img src="EMI.png" alt="">
+            </div>
+            <h4>0% EMI </h4>
+          </div>
+
+          <div class="epart img_width">
+            <div class="logo">
+              <img src="photography-removebg-preview.png" alt="">
+            </div>
+            <h4>7 days replacement Guarantee</h4>
+          </div>
+
+          <div class="epart">
+            <div class="logo">
+              <img src="1-Year-Warranty-logo-removebg-preview.png" alt="">
+            </div>
+            <h4>1 year service warrenty</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    </main>
+
+    <footer id = "foot">
+      <div class="frow">
+        <div class="fcard">
+          <div class="title">
+            <h1>About Us</h1> </div>
+            <img src="logo.jpg" alt="" width="170px" class="img-thumbnail">
+          <div class="fdec">
+            <p>MobileDokan is a website where variuos Phones of latest version and updates are available. We try to give maximum satisfaction to customers by gaining minimum proft. Our moto is to gain positive feedback of customers. We try our best to give discounts also free services.</p> </div>
+        </div>
+          
+        <div class="fcard">
+          <div class="title">
+            <h1>Newsletter</h1> </div>
+          
+          <div class="fdec">
+            <p>Stay updated with our latest</p> </div>
+
+            <div class="form">
+              <form action="">
+                  <div class="form_info"><input type="text" placeholder="Enter Email"></div>
+                  <div class="form_info"><button onclick="responce()">Send Message</button></div>
+              </form>
+          </div>
+        </div>
+
+        <div class="fcard">
+          <div class="title">
+            <h1>Contact Us</h1> </div>
+          
+          <div class="fdec">
+            <p>Stay Connected</p> </div>
+
+            <div class="cont">
+                <i class="fa-brands fa-whatsapp">  +45864864  </i>
+                <i class="fa-solid fa-envelope">  habijabi@yahoo.com  </i>
+                <i class="fa-solid fa-location-dot">  Kumira, Ctg  </i>
+          </div>
+        </div>
+
+        <div class="fcard">
+          <div class="title">
+            <h1>Follow Us</h1> </div>
+
+          <div class="fdec">
+            <p>Let us be social</p> </div>
+
+            <div class="social">
+              <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://twitter.com/?lang=en"><i class="fa-brands fa-square-twitter"></i></a>
+              <a href="https://accounts.google.com/v3/signin/identifier?dsh=S-1442501937%3A1661352580459563&continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&emr=1&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&osid=1&passive=1209600&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AQN2RmX2TkUs2kS0yIeCQVQYiPfO9jODYbpTeH7qyQUE2wqh3x9ysY9_7ZVScR8Fe-_LfcF5qj22uQ"><i class="fa-solid fa-envelope"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="sdec">
+        <div class="flogo">
+          <p class="pc1"><i class="fa-sharp fa-solid fa-copyright"></i>Copyright 2022 MoboleDokan.</p>
+        </div>
+        
+        <div class="details">
+          <p class="pc2">All Rights Reserved.</p>
+          <p class="pc3">Developed by: <span class = "name">Md.Shakib</span></p>
+        </div>
+      </div>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src = "cart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>

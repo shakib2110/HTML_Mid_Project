@@ -1,0 +1,74 @@
+#Product{
+    padding: 0px 20px;
+    scroll-margin-top: 10vh;
+}
+
+
+.pcard .card-body button{
+    width: 200px;
+    height: 50px;
+    font-size: larger;
+    font-weight: bolder;
+    border-radius: 20px;
+}
+
+.cart-card button{
+    width: 200px;
+    height: 50px;
+    font-size: larger;
+    font-weight: bolder;
+    border-radius: 20px;
+    margin-left: 27%;
+    margin-top: 20px;
+}
+
+#Upcoming{
+    margin-top: 60px;
+    height: 100vh;
+}
+
+.pcard{
+    height: 500px;
+    padding: 10px;
+    /* width: 380px; */
+    margin: 5px;
+    text-align: center;
+    border-radius: 15px;
+    border: 3px solid #e9ecef;
+    background-color: #e9ecef
+}
+
+.pcard:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    border: none;
+} 
+
+.pcard .card-body h5, p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pcard .card-title{
+    margin-top: 15px;
+}
+
+.pcard img{
+    height: 300px;
+    width: 300px;
+}
+
+.cart-card{
+    height: 500px;
+    width: 400px;
+    font-weight: bolder;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+/* .pcard, .cart-card{
+    border: 2px solid black;
+} */
+
+.shift{
+    float: right;
+}
